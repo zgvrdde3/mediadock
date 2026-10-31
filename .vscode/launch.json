@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Debug MediaDock",
+            "target": "MediaDock",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MediaDock"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Release MediaDock",
+            "target": "MediaDock",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MediaDock"
+        }
+    ]
+}
